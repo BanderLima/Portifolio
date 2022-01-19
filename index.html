@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <script src="https://kit.fontawesome.com/1d9f0a9891.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="index.html">
+                    <img src="https://bulma.io/images/bulma-logo.png"
+                        alt="Bulma: Free, open source, and modern CSS framework based on Flexbox" width="112"
+                        height="28">
+                </a>
+            </div>
+            <!--nessa parte de baixo é responsável pelos links do menu, foi add no class, is active, quequer dizer que modo mobile, esse menu vai aparecer-->
+            <div id="navbarBasicExample" class="navbar-menu is-active">
+                <div class="navbar-start">
+                    <!--Elementos q vao começar na esquerda da Nav-bar e end, final-->
+                    <a class="navbar-item" href="index.html">
+                        Inicio
+                    </a>
+
+                    <a class="navbar-item" href="contact.html">
+                        Contato
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="section">
+        <!--Sempre dentro de uma section com mesmo nome de class-->
+        <div class="container">
+            <!--sempre criar o container, essa é a div pai.-->
+            <div class="columns">
+                <!--criando colunas-->
+                <div class="column">
+                    <!--cada div pra uma coluna-->
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+
+                                <div class="media-content">
+                                    <p class="title is-4">John Smith</p>
+                                    <!--Aqui foi criado um span para inserir um class com atributos para o texto criado. Tipo tag, preto e o tamanho medio-->
+                                    <span class="tag is-dark is-medium">Javascript Full Developer</span>
+
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                <p>(11)91234-5678</p>
+                                <p>exemplo@exemplo.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-9">
+                    <div class="card">
+                        <header class="card-header">
+                            <p class="card-header-title">
+                                Sobre Mim
+                            </p>
+                        </header>
+                        <div class="card-content">
+                            <div class="content">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non laudantium aliquid
+                                mollitia, libero natus nam. Necessitatibus distinctio excepturi qui, reprehenderit iure
+                                provident neque quos corrupti minima ratione quia quae sapiente!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <header class="card-header">
+                            <p class="card-header-title">
+                                Experiências
+                            </p>
+                        </header>
+                        <div class="card-content">
+                            <div class="content">
+                                <div class="columns">
+                                    <div class="column ">
+                                        <figure class="image is-128x128">
+                                            <img class="is-rounded"
+                                                src="https://bulma.io/images/placeholders/128x128.png">
+                                        </figure>
+                                    </div>
+                                    <div class="column is-9">
+                                        <p class="title is-5">Javascript Developer <span class="tag is-dark"> Empresa
+                                                Chamada x</span></p>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
+                                            doloremque earum delectus sapiente molestias ipsam illum ipsa in,
+                                            praesentium excepturi deleniti nobis tempora atque distinctio ex hic ipsum
+                                            cum at? Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+                                            aliquam, repellat quo est cupiditate aspernatur ratione itaque reprehenderit
+                                            explicabo natus quaerat quae, maiores aut illum porro non, deserunt aliquid
+                                            repudiandae!</p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="columns">
+                                    <div class="column ">
+                                        <figure class="image is-128x128">
+                                            <img class="is-rounded"
+                                                src="https://bulma.io/images/placeholders/128x128.png">
+                                        </figure>
+                                    </div>
+                                    <div class="column is-9">
+                                        <p class="title is-5">Javascript Developer <span class="tag is-dark"> Empresa
+                                                Chamada x</span></p>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
+                                            doloremque earum delectus sapiente molestias ipsam illum ipsa in,
+                                            praesentium excepturi deleniti nobis tempora atque distinctio ex hic ipsum
+                                            cum at? Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+                                            aliquam, repellat quo est cupiditate aspernatur ratione itaque reprehenderit
+                                            explicabo natus quaerat quae, maiores aut illum porro non, deserunt aliquid
+                                            repudiandae!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <header class="card-header">
+                            <p class="card-header-title">
+                                Formação
+                            </p>
+                        </header>
+                        <div class="card-content">
+                            <div class="content">
+                                <div>
+                                    <p class="title is-5">Javascript fullstack 8 week</p>
+                                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non laudantium aliquid
+                                        mollitia, libero natus nam. Necessitatibus distinctio excepturi qui,
+                                        reprehenderit iure
+                                        provident neque quos corrupti minima ratione quia quae sapiente!
+                                    </p>
+                                </div>
+                                <hr>
+                                <div>
+                                    <p class="title is-5">HTML + CSS + BULMA</p>
+                                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non laudantium aliquid
+                                        mollitia, libero natus nam. Necessitatibus distinctio excepturi qui,
+                                        reprehenderit iure
+                                        provident neque quos corrupti minima ratione quia quae sapiente!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
